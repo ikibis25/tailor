@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<!-- 
+Template Name: Tailor Html Template
+Version: 1.0.0
+-->
+<!--[if IE 8]> <html lang="en" class="ie8 no-js"> <![endif]-->
+<!--[if IE 9]> <html lang="en" class="ie9 no-js"> <![endif]-->
+<!--[if !IE]> -->
+<html lang="en">
+<!-- <![endif]-->
+<!-- BEGIN HEAD -->
+<head>
+	<title>Tailor Html Template</title>
+	<meta charset="utf-8" />
+	<meta content="width=device-width, initial-scale=1.0" name="viewport" />
+	<meta name="description" content="Tailor Html Template" />
+	<meta name="keywords" content="Tailor, Tailor Html">
+	<meta name="author" content="TemplateBundle" />
+	<meta name="MobileOptimized" content="320" />
+	<!-- main style -->
+	<link href="css/main.css" rel="stylesheet" type="text/css"/>
+	<!-- main style -->
+	<!-- favicon-icon -->
+	<link rel="icon" type="image/png" href="images/icon/favicon.png">
+	<!-- favicon-icon -->
+</head>
+<!-- END HEAD -->
+<!--body start-->
+<body>
+<!-- login signup popup Start -->
+<div class="login_signup_popup">
+	<div class="login_signup_cover">
+		<div class="login_signup_inner">
+			<ul class="tabs">
+				<li class="tab-link current" data-tab="login">login</li>
+				<li class="tab-link" data-tab="signup">signup</li>
+			</ul>
+			<div class="login_signup_tabs">
+				<div class="tab_content current" id="login">
+					<div class="tl_login_form popup_form">
+						<form>
+							<div class="form-group">
+								<input type="email" name="lg_name_email" id="lg_name_email" placeholder="Username / Email"/>
+								<i class="fa fa-user" aria-hidden="true"></i>
+							</div>
+							<div class="form-group">
+								<input type="password" name="lg_pass" id="lg_pass" placeholder="Password"/>
+								<i class="fa fa-lock" aria-hidden="true"></i>
+							</div>
+							<div class="login_text"><a href="#">Forgot your Password</a></div>
+							<input type="submit" class="login_button submit_button" value="Sign In" />
+						</form>
+					</div>
+				</div>
+				<div class="tab_content" id="signup">
+					<div class="tl_signup_form popup_form">
+						<form>
+							<div class="form-group">
+								<input type="name" name="sign_name" id="sign_name" placeholder="Username"/>
+								<i class="fa fa-user" aria-hidden="true"></i>
+							</div>
+							<div class="form-group">
+								<input type="email" name="sign_email" id="sign_email" placeholder="Email"/>
+								<i class="fa fa-envelope" aria-hidden="true"></i>
+							</div>
+							<div class="form-group">
+								<input type="password" name="sign_pass" id="sign_pass" placeholder="Password"/>
+								<i class="fa fa-lock" aria-hidden="true"></i>
+							</div>
+							<input type="submit" class="signup_button submit_button" value="Sign Up" />
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<span class="close_btn close_popup"><i class="first"></i><i class="second"></i></span>
+	</div>
+</div>
+<!-- login signup popup End -->
+<!-- preloader Start -->
+<div class="preloader">
+	<div class="scissor_center">
+		<div class="scissor_wrap">
+			<div class="scissor_part part_1">
+				<div class="blade"></div>
+				<div class="handle"></div>
+			</div>
+			<div class="scissor_part part_2">
+				<div class="blade"></div>
+				<div class="handle"></div>
+			</div>
+			<span class="joint"></span>
+		</div>
+	</div>
+</div>
+<!-- preloader End -->
+<!-- header menu start -->
+<div class="tl_header_section">
+	<div class="container">
+		<div class="row">
+			<div class="col-lg-12">
+				<div class="header_top_area">
+					<div class="tl_top_menu top_left_menu">
+						<ul>
+							<li><a href="#" class="login_popup"><i class="fa fa-user"></i>login</a></li>
+							<li><a href="checkout.html"><i class="fa fa-shopping-cart"></i>checkout</a></li>
+						</ul>
+					</div>
+					<div class="tl_top_menu top_right_menu">
+						<ul>
+							<li><a href="#"><i class="fa fa-heart" aria-hidden="true"></i>wishlist</a></li>
+							<li>
+								<div class="select_wrapper">
+									<select>
+										<option value="0">Select</option>
+										<option value="1">USD</option>
+										<option value="2">euro</option>
+										<option value="3">inr</option>
+										<option value="4">Pound</option>
+									</select>
+								</div>
+							</li>
+						</ul>
+					</div>
+				</div>
+				<div class="menu_section_wrap">
+					<!-- Site logo Start -->
+					<div class="tl_logo">
+						<a href="index.html">
+							<img class="img-responsive" src="images/logo_small.png" alt="logo">
+						</a>
+					</div>
+					<!-- Site logo End -->
+					<!-- nav toggle -->
+					<div class="nav_toggle">
+						<i></i>
+						<i></i>
+						<i></i>
+					</div>
+					<!-- nav toggle -->
+					<!-- Navigation Menu Start -->
+					<div class="header_right_menu">
+						<nav class="menu_section">
+							<ul class="menu"> 
+								<li>
+									<a href="index.html">Home</a>
+								</li>
+								<li>
+									<a href="about.html">About us</a>
+								</li>
+								<li>
+									<a href="mens.html">Mens</a>
+								</li>
+								<li>
+									<a href="womens.html">Womens</a>
+								</li>
+							</ul>
+						</nav>
+						<div class="tl_center_logo">
+							<a href="index.html">
+								<img class="img-responsive" src="images/logo.png" alt="logo">
+							</a>
+						</div>
+						<nav class="menu_section right_nav">
+							<ul class="menu"> 
+								<li>
+									<a href="gallery.html">Gallery</a>
+								</li>
+								<li>
+									<a href="#">Blog</a>
+									<ul class="sub-menu">
+										<li><a href="blog.html">Blog Default</a></li>
+										<li><a href="blog_single.html">Blog Single</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="#">pages</a>
+									<ul class="sub-menu">
+										<li><a href="team.html">Team</a></li>
+										<li><a href="cart.html">cart</a></li>
+										<li><a href="product_details.html">Product Details</a></li>
+										<li><a href="checkout.html">Checkout</a></li>
+									</ul>
+								</li>
+								<li>
+									<a href="contact.html">Contact</a>
+								</li>
+							</ul>
+						</nav>
+					</div>
+					<!-- Navigation Menu End -->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- header menu end -->
+<!--Home slider section start -->
+<div class="home_slider_cover">
+	<div class="owl-carousel owl-theme tl_home_slider">
+		<!-- item 1 Start -->
+		<div class="item">
+			<div class="slider_bg" style="background-image:url('http://via.placeholder.com/1920x850');">
+				<!-- slider caption start -->
+				<div class="header_content_part">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-5 col-sm-8 col-xs-12 col-md-offset-7">
+								<div class="tl_slider_caption">
+									<h1>Create your<br> Own Fashion Style</h1>
+									<h2>Maintain Your Style Statement</h2>
+									<p class="tr_slider_para">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+										incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+									</p>
+									<a href="#" class="tl_read_more">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- slider caption end -->
+			</div>
+		</div>
+		<!-- item 1 End -->
+		<!-- item 2 Start -->
+		<div class="item">
+			<div class="slider_bg" style="background-image:url('http://via.placeholder.com/1920x850');">
+				<!-- slider caption start -->
+				<div class="header_content_part">
+					<div class="container">
+						<div class="row">
+							<div class="col-md-5 col-sm-8 col-xs-12 col-md-offset-7">
+								<div class="tl_slider_caption">
+									<h1>Create your Own Fashion Style</h1>
+									<h2>Maintain Your Style Statement</h2>
+									<p class="tr_slider_para">
+										Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor
+										incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.
+									</p>
+									<a href="#" class="tl_read_more">Read More</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<!-- slider caption end -->
+			</div>
+		</div>
+		<!-- item 2 End -->
+	</div>
+</div>
+<!--Home slider section start -->
+<!-- About section Start -->
+<div class="main_section pad_top_bottom_80 about_section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-6 col-sm-12">
+				<div class="about_thumb_wrap">
+					<div class="about_thumb">
+						<img src="http://via.placeholder.com/270x270" class="img-responsive" alt="" />
+					</div>
+					<div class="about_thumb">
+						<img src="http://via.placeholder.com/270x270" class="img-responsive" alt="" />
+					</div>
+					<div class="about_thumb">
+						<img src="http://via.placeholder.com/270x270" class="img-responsive" alt="" />
+					</div>
+				</div>
+			</div>
+			<div class="col-md-6 col-sm-12">
+				<div class="about_description">
+					<div class="about_heading">
+						<h1>About Us</h1>
+						<span class="heading_icon">
+							<img src="images/icon/heading_icon.png" alt=""  class="img-responsive" />
+						</span>
+					</div>
+					<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure. But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complete account of the system, and expound the actual teachings of the great explorer of the truth, the master-builder of human happiness. No one rejects, dislikes, or avoids pleasure itself, because it is pleasure</p>
+					<p>
+						But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain.
+					</p>
+					<a href="#" class="tailor_btn">Read More</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- About section End -->
+<!-- skills section Start -->
+<div class="main_section pad_top_80 skills_section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<div class="counter_box">
+					<span class="counter_icon">
+						<i class="fa fa-smile-o" aria-hidden="true"></i>
+					</span>
+					<h1 class="counter_number"  data-to="1250" data-delay="100" data-speed="3000">1250</h1>
+					<h4>Happy Customers</h4>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<div class="counter_box">
+					<span class="counter_icon">
+						<i class="fa fa-map-marker" aria-hidden="true"></i>
+					</span>
+					<h1 class="counter_number"  data-to="150" data-delay="100" data-speed="3000">150</h1>
+					<h4>Location Acquired</h4>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<div class="counter_box">
+					<span class="counter_icon">
+						<i class="fa fa-black-tie" aria-hidden="true"></i>
+					</span>
+					<h1 class="counter_number"  data-to="670" data-delay="100" data-speed="3000">670</h1>
+					<h4>Suits Designed</h4>
+				</div>
+			</div>
+			<div class="col-md-3 col-sm-6 col-xs-12">
+				<div class="counter_box">
+					<span class="counter_icon">
+						<i class="fa fa-users" aria-hidden="true"></i>
+					</span>
+					<h1 class="counter_number"  data-to="1200" data-delay="100" data-speed="3000">1200</h1>
+					<h4>Smart Employees</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- skills section End -->
+<!-- feature section Start -->
+<div class="main_section pad_top_80 pad_bottom_30 feature_section">
+	<div class="container">
+		<div class="row">
+			<!-- section heading -->
+			<div class="col-lg-6 col-md-8 col-lg-offset-3 col-md-offset-2 col-xs-12">
+				<div class="section_heading">
+					<h1>Featured Item</h1>
+					<span class="heading_icon">
+						<img src="images/icon/heading_icon.png" alt="" class="img-responsive">
+					</span>
+					<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complet.</p>
+				</div>
+			</div>
+			<!-- section heading -->
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="feature_box">
+					<!-- thumb -->
+					<div class="feature_thumb">
+						<img src="http://via.placeholder.com/370x450" alt=""  class="img-responsive" />
+						<!-- Overlay -->
+						<div class="tl_overlay">
+							<div class="overlay_inner">
+								<a href="product_details.html" class="view_icon">
+									<i class="fa fa-eye" aria-hidden="true"></i>
+								</a>
+								<a href="cart.html" class="cart_icon">
+									<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div>
+						<!-- Overlay -->
+					</div>
+					<!-- thumb -->
+					<!-- Description -->
+					<div class="feature_desc">
+						<div><h3>Mens Suit</h3><span class="price"><i>$</i> 225</span></div>
+						<div>
+							<a href="#" class="ad_wishlist">Add To Wishlist 
+								<i class="fa fa-heart-o" aria-hidden="true"></i>
+							</a>
+							<span class="rating_star">
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star-o" aria-hidden="true"></i>
+							
+							</span>
+						</div>
+					</div>
+					<!-- Description -->
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="feature_box">
+					<!-- thumb -->
+					<div class="feature_thumb">
+						<img src="http://via.placeholder.com/370x450" alt=""  class="img-responsive" />
+						<!-- Overlay -->
+						<div class="tl_overlay">
+							<div class="overlay_inner">
+								<a href="product_details.html" class="view_icon">
+									<i class="fa fa-eye" aria-hidden="true"></i>
+								</a>
+								<a href="cart.html" class="cart_icon">
+									<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div>
+						<!-- Overlay -->
+					</div>
+					<!-- thumb -->
+					<!-- Description -->
+					<div class="feature_desc">
+						<div><h3>Womens Formal</h3><span class="price"><i>$</i> 225</span></div>
+						<div>
+							<a href="#" class="ad_wishlist">Add To Wishlist 
+								<i class="fa fa-heart-o" aria-hidden="true"></i>
+							</a>
+							<span class="rating_star">
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star" aria-hidden="true"></i>
+								<i class="fa fa-star-o" aria-hidden="true"></i>
+							</span>
+						</div>
+					</div>
+					<!-- Description -->
+				</div>
+			</div>
+			<div class="col-md-4 col-sm-6 col-xs-12">
+				<div class="feature_box">
+					<!-- thumb -->
+					<div class="feature_thumb">
+						<img src="http://via.placeholder.com/370x450" alt=""  class="img-responsive" />
+						<!-- Overlay -->
+						<div class="tl_overlay">
+							<div class="overlay_inner">
+								<a href="product_details.html" class="view_icon">
+									<i class="fa fa-eye" aria-hidden="true"></i>
+								</a>
+								<a href="cart.html" class="cart_icon">
+									<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+								</a>
+							</div>
+						</div>
+						<!-- Overlay -->
+					</div>
+					<!-- thumb -->
+					<!-- Description -->
+					<div class="feature_desc">
+						<div><h3>Womens Formal</h3><span class="price"><i>$</i> 225</span></div>
+						<div>
+							<a href="#" class="ad_wishlist">Add To Wishlist 
+								<i class="fa fa-heart-o" aria-hidden="true"></i>
+							</a>
+							<span class="rating_star">
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star" aria-hidden="true"></i>
+							<i class="fa fa-star-o" aria-hidden="true"></i>
+							
+							</span>
+						</div>
+					</div>
+					<!-- Description -->
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- feature section End -->
+<!-- hero section Start -->
+<div class="main_section hero_middle_section">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-4 col-sm-12 col-xs-12">
+				<!-- thumb -->
+				<div class="hero_thumb">
+					<img src="http://via.placeholder.com/329x503" alt="thumb"  class="img-responsive" />
+				</div>
+				<!-- thumb -->
+			</div>
+			<div class="col-md-8 col-sm-12 col-xs-12">
+				<!-- Description -->
+				<div class="hero_desc">
+					<div class="hero_desc_inner">
+						<h1>We Make Better & Real You</h1>
+						<p>
+							It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, content here', making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model text.
+						</p>
+						<a href="#" class="tailor_btn hero_btn">Read More</a>
+					</div>
+				</div>
+				<!-- Description -->
+			</div>
+		</div>
+	</div>
+</div>
+<!-- hero section End -->
+<!-- offers section Start -->
+<div class="main_section pad_top_80 pad_bottom_50 offers_section">
+	<div class="container">
+		<div class="row">
+			<!-- section heading -->
+			<div class="col-lg-6 col-md-8 col-lg-offset-3 col-md-offset-2 col-xs-12">
+				<div class="section_heading">
+					<h1>Latest Offers</h1>
+					<span class="heading_icon">
+						<img src="images/icon/heading_icon.png" alt="" class="img-responsive">
+					</span>
+					<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complet.</p>
+				</div>
+			</div>
+			<!-- section heading -->
+			<div class="col-md-6 col-sm-12 col-xs-12">
+				<!-- thumb -->
+				<div class="offer_thumb">
+					<img src="http://via.placeholder.com/570x631" alt="thumb"  class="img-responsive" />
+					<!-- Overlay -->
+					<div class="offer_overlay_1">
+						<h1>50% off <span>Sale <br/> On Blazers</span></h1>
+						<a href="#" class="tailor_btn shop_btn">shop now</a>
+					</div>
+					<!-- Overlay -->
+				</div>
+				<!-- thumb -->
+			</div>
+			<div class="col-md-6 col-sm-12 col-xs-12">
+				<div class="row">
+					<div class="col-sm-6 col-xs-6 offer_thumb_m">
+						<!-- thumb -->
+						<div class="offer_thumb">
+							<img src="http://via.placeholder.com/270x300" alt="thumb"  class="img-responsive" />
+							<!-- Overlay -->
+							<div class="offer_overlay_2">
+								<h2>SALE <span>35% off</span></h2>
+							</div>
+							<!-- Overlay -->
+						</div>
+						<!-- thumb -->
+					</div>
+					<div class="col-sm-6 col-xs-6 offer_thumb_m">
+						<!-- thumb -->
+						<div class="offer_thumb">
+							<img src="http://via.placeholder.com/270x300" alt="thumb"  class="img-responsive" />
+							<!-- Overlay -->
+							<div class="offer_overlay_3">
+								<div class="offer_overlay_inner">
+									<h1>Get 20% Cashback on Shopping</h1>
+								</div>
+							</div>
+							<!-- Overlay -->
+						</div>
+						<!-- thumb -->
+					</div>
+				</div>
+				<!-- thumb -->
+				<div class="offer_thumb">
+					<img src="http://via.placeholder.com/570x300" alt="thumb"  class="img-responsive" />
+					<!-- Overlay -->
+					<div class="offer_overlay_4">
+						<div class="offer_overlay_inner">
+							<h1>Hurry</h1>
+							<h2>Limited Time Offer</h2>
+							<div class="offer_start_btn">
+								Start from 1299
+							</div>
+						</div>
+					</div>
+					<!-- Overlay -->
+				</div>
+				<!-- thumb -->
+			</div>
+		</div>
+	</div>
+</div>
+<!-- offers section End -->
+<!-- Newsletter section Start -->
+<div class="main_section newsletter_section">
+	<div class="container">
+		<div class="row">
+			<!-- newsletter thumb -->
+			<div class="col-md-6 col-sm-12 col-xs-12 pull-right">
+				<div class="newsletter_thumb">
+					<img src="http://via.placeholder.com/372x418" alt="" class="img-responsive">
+				</div>
+			</div>
+			<!-- newsletter thumb -->
+			<!-- newsletter form -->
+			<div class="col-md-6 col-sm-12 col-xs-12">
+				<div class="newsletter_wrapper">
+					<div class="newsletter_heading">
+						<h1>stay upto date</h1>
+						<p>
+							It is a long established fact that a reader will be distracted by the readable content. It is a long established fact that a reader will be distracted.
+						</p>
+					</div>
+					<div class="newsletter_form">
+						<form>
+							<input type="email" name="email" id="news_email" placeholder="Enter Your Email" />
+							<input type="submit" id="news_submit" class="subscribe_btn tailor_btn" value="Subscribe" />
+						</form>
+					</div>
+				</div>
+			</div>
+			<!-- newsletter form -->
+		</div>
+	</div>
+</div>
+<!-- Newsletter section End -->
+<!-- Blog section Start -->
+<div class="main_section pad_top_80 pad_bottom_50 blog_section">
+	<div class="container">
+		<div class="row">
+			<!-- section heading -->
+			<div class="col-lg-6 col-md-8 col-lg-offset-3 col-md-offset-2 col-xs-12">
+				<div class="section_heading">
+					<h1>Latest Posts</h1>
+					<span class="heading_icon">
+						<img src="images/icon/heading_icon.png" alt="" class="img-responsive">
+					</span>
+					<p>But I must explain to you how all this mistaken idea of denouncing pleasure and praising pain was born and I will give you a complet.</p>
+				</div>
+			</div>
+			<!-- section heading -->
+			<div class="blog_main">
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<div class="blog_box">
+						<!-- thumb -->
+						<div class="blog_thumb">
+							<img src="http://via.placeholder.com/370x265" alt="" class="img-responsive">
+						</div>
+						<!-- thumb -->
+						<!-- Description -->
+						<div class="blog_desc">
+							<h3>Video Monitoring Surveillan</h3>
+							<div class="blog_meta">
+								<span><i class="fa fa-user"></i>Admin</span> 
+								<span><i class="fa fa-comment" aria-hidden="true"></i>comments</span>
+							</div>
+							<p>
+								Li Europan lingues es membres del e family separat existentie scientie, lit emusica, sport sam vocabular.
+							</p>
+							<a href="blog_single.html" class="tailor_btn blog_btn">read more</a>
+						</div>
+						<!-- Description -->
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<div class="blog_box">
+						<!-- thumb -->
+						<div class="blog_thumb">
+							<img src="http://via.placeholder.com/370x265" alt="" class="img-responsive">
+						</div>
+						<!-- thumb -->
+						<!-- Description -->
+						<div class="blog_desc">
+							<h3>Video Monitoring Surveillan</h3>
+							<div class="blog_meta">
+								<span><i class="fa fa-user"></i>Admin</span> 
+								<span><i class="fa fa-comment" aria-hidden="true"></i>comments</span>
+							</div>
+							<p>
+								Li Europan lingues es membres del e family separat existentie scientie, lit emusica, sport sam vocabular.
+							</p>
+							<a href="blog_single.html" class="tailor_btn blog_btn">read more</a>
+						</div>
+						<!-- Description -->
+					</div>
+				</div>
+				<div class="col-md-4 col-sm-6 col-xs-12">
+					<div class="blog_box">
+						<!-- thumb -->
+						<div class="blog_thumb">
+							<img src="http://via.placeholder.com/370x265" alt="" class="img-responsive">
+						</div>
+						<!-- thumb -->
+						<!-- Description -->
+						<div class="blog_desc">
+							<h3>Video Monitoring Surveillan</h3>
+							<div class="blog_meta">
+								<span><i class="fa fa-user"></i>Admin</span> 
+								<span><i class="fa fa-comment" aria-hidden="true"></i>comments</span>
+							</div>
+							<p>
+								Li Europan lingues es membres del e family separat existentie scientie, lit emusica, sport sam vocabular.
+							</p>
+							<a href="blog_single.html" class="tailor_btn blog_btn">read more</a>
+						</div>
+						<!-- Description -->
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<!-- Blog section End -->
+<!-- Footer Start -->
+<footer>
+	<!-- footer social Start -->
+	<div class="tl_footer_social_section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-9 col-md-offset-3 col-xs-12">
+					<div class="social_icons footer_social">
+						<a href="#"><i class="fa fa-facebook"></i></a>
+						<a href="#"><i class="fa fa-twitter"></i></a>
+						<a href="#"><i class="fa fa-google-plus"></i></a>
+						<a href="#"><i class="fa fa-linkedin"></i></a>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- footer social End -->
+	<!-- footer main Start -->
+	<div class="tl_main_footer_section">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="widget address_widget">
+						<div class="pocket_shape">
+							<span class="pin_icon"><img src="images/icon/pin_icon.png" alt="" /></span>
+							<span class="triangle"></span>
+							<h1>Tailor Style</h1>
+							<p>Li lingues differe solmen li  grammatica, pronunciation  vocabules lingual.</p>
+							
+							<h3>Get in Touch</h3>
+							<ul class="get_in_touch">
+								<li>
+									<i class="fa fa-map-marker"></i>
+									<p>4863 Drummond Street Piscataway, NJ 08854</p>
+								</li>
+								<li>
+									<i class="fa fa-phone"></i>
+									<p>+ 124 45 8689</p>
+								</li>
+								<li>
+									<i class="fa fa-envelope"></i>
+									<p><a href="#">Support@gmail.com</a></p>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="widget service_widget margin_t_70">
+						<h3 class="widget-title">Our Services</h3>
+						<ul>
+							<li><a href="#">Suit Stiching Service</a></li>
+							<li><a href="#">Formal Stiching Service</a></li>
+							<li><a href="#">Resizing Dresses</a></li>
+							<li><a href="#">3 Peice Stiching</a></li>
+						</ul>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="widget margin_t_70">
+						<h3 class="widget-title">Service hours</h3>
+						<div class="widget_schedule">
+							<ul>
+								<li>Monday - Friday : 9 am : 8 pm</li>
+								<li>Saturday : 10 am : 4 pm</li>
+								<li>Sunday : Closed</li>
+								<li>Support Hours in 24/7 Everyday</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+				<div class="col-md-3 col-sm-6 col-xs-12">
+					<div class="widget newsletter_widget margin_t_70">
+						<h3 class="widget-title">Newsletter</h3>
+						<div class="textwidget">
+							<div class="footer_newsletter_form">
+								<form>
+									<input type="email" name="f_email" id="f_email" placeholder="Enter Your Email" />
+									<button type="submit" id="ftr_news_btn" class="ftr_news_btn">
+										<i class="fa fa-long-arrow-right" aria-hidden="true"></i>
+									</button>
+								</form>
+							</div>
+							<p>Li lingues differ solmen vocabules grammatic, pronunciation esser vocabules.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- footer main End -->
+	<!-- footer bottom Start -->
+	<div class="tl_footer_bottom_section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12">
+					<p class="copyright_text">
+						Copyright &copy; 2018, All Rights Reserved by <a href="http://templatebundle.net/">Template Bundle</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!-- footer bottom End -->
+</footer>
+<!-- Footer End -->
+<!-- jquery library js -->
+<script src="js/jquery.js"></script> 
+<!-- jquery library js -->
+<!-- bootstrap js file-->
+<script src="js/bootstrap.min.js"></script> 
+<!-- bootstrap js file-->
+<!-- owl crousel js file-->
+<script src="js/plugins/owl-crousel/owl.carousel.js"></script> 
+<!-- owl crousel js file-->
+<!-- Datepicker-->
+<script src="js/plugins/datepicker/jquery-ui.js"></script> 
+<!-- Datepicker-->
+<!-- counter-->
+<script src="js/plugins/counter/jquery.countTo.js"></script> 
+<!-- counter-->
+<!-- appear js start-->
+<script src="js/plugins/animation/jquery.appear.js"></script> 
+<!-- appear js end-->
+<!-- wow js start-->
+<script src="js/plugins/animation/wow.min.js"></script> 
+<!-- wow js end-->
+<!-- custom js -->
+<script src="js/custom.js"></script> 
+<!-- custom js -->
+<!-- map script -->
+</body>
+<!--body end -->
+</html>
